@@ -10,9 +10,9 @@
 
 ## Project Overview
 
-This repository contains Python scripts used to generate publication-quality figures for the Oak Ridge National Laboratory (ORNL) Research Science Internship (RSI) Summer 2026 poster presentation.
+This repository contains Python scripts used to generate figures for the Oak Ridge National Laboratory (ORNL) Research Science Internship (RSI) Summer 2026 poster presentation.
 
-The research investigates the growth of highly c-axis oriented aluminum nitride (AlN) thin films using reactive magnetron sputtering on silicon dioxide substrates. The key innovation is the use of nitrogen plasma treatment to create an oxynitride (SiOₓNᵧ) templating layer that promotes preferential (0002) texture in the deposited AlN films.
+The research investigates the growth of highly c-axis oriented aluminum nitride (AlN) thin films using reactive magnetron sputtering on silicon dioxide substrates. The key innovation is the use of nitrogen plasma treatment to create an oxynitride (SiO$_X$N$_Y$) templating layer that promotes preferential (0002) texture in the deposited AlN films.
 
 ### Key Findings
 
@@ -35,13 +35,6 @@ The research investigates the growth of highly c-axis oriented aluminum nitride 
 ├── fig5_afm_rms.py       # AFM RMS surface roughness analysis
 ├── fig6_grains.py        # Surface feature size vs XRD coherence length
 ├── fig7_xrr.py           # X-ray reflectivity: density & thickness
-├── data/                 # Input CSV data files
-│   ├── rocking_curve_summary.csv
-│   ├── xrd_coherence_summary.csv
-│   ├── XRR_summary.csv
-│   ├── AFM_RMS_summary.csv
-│   ├── AFM_grain_summary.csv
-│   └── master_table.csv
 └── figures/              # Output directory (auto-created)
 ```
 
@@ -51,11 +44,11 @@ The research investigates the growth of highly c-axis oriented aluminum nitride 
 
 | Figure | Script | Description |
 |--------|--------|-------------|
-| **Fig. 1** | `fig1_concept.py` | Schematic comparing untreated SiO₂ (mixed texture) vs. plasma-modified SiOₓNᵧ ((0002)-textured AlN) |
+| **Fig. 1** | `fig1_concept.py` | Schematic comparing untreated SiO₂ (mixed texture) vs. plasma-modified SiO$_X$N$_Y$ ((0002)-textured AlN) |
 | **Fig. 2** | `fig2_campaign.py` | Campaign timeline showing rocking curve FWHM evolution and growth rate improvements |
 | **Fig. 3** | `fig3_rocking.py` | Horizontal bar chart of rocking curve FWHM by growth condition (60-min and 10-min series) |
 | **Fig. 4** | `fig4_coherence.py` | (a) Out-of-plane coherence length via Scherrer analysis, (b) c-lattice parameter comparison |
-| **Fig. 5** | `fig5_afm_rms.py` | AFM RMS roughness (Sᵩ) across multiple scan sizes (1, 2, 5 µm) |
+| **Fig. 5** | `fig5_afm_rms.py` | AFM RMS roughness (S$_\psi$) across multiple scan sizes (1, 2, 5 µm) |
 | **Fig. 6** | `fig6_grains.py` | AFM surface feature diameter vs. XRD coherence length correlation |
 | **Fig. 7** | `fig7_xrr.py` | XRR-derived film density and thickness for 10-min growth series |
 
@@ -118,15 +111,13 @@ Figures are automatically saved to the `figures/` directory in multiple formats:
 | `rocking_curve_summary.csv` | AlN (0002) ω-scan FWHM values and uncertainties |
 | `xrd_coherence_summary.csv` | Scherrer coherence length and c-lattice parameters |
 | `XRR_summary.csv` | X-ray reflectivity derived density and thickness |
-| `AFM_RMS_summary.csv` | Surface roughness (Sᵩ) from AFM scans |
+| `AFM_RMS_summary.csv` | Surface roughness (S$_\psi$) from AFM scans |
 | `AFM_grain_summary.csv` | Grain/feature size statistics from AFM |
 | `master_table.csv` | Combined process parameters and results |
 
 ---
 
 ## Color Palette
-
-The figures use a **CVD-safe (colorblind-friendly)** palette based on ORNL branding:
 
 | Color | Hex | Usage |
 |-------|-----|-------|
