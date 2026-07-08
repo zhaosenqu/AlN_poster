@@ -1,11 +1,10 @@
-```markdown
 # ORNL RSI Summer 2026 Poster Figures
 
 **Analysis and visualization code for (0002)-textured wurtzite AlN thin film growth on plasma-modified SiO₂ substrates.**
 
 [![Author](https://img.shields.io/badge/Author-Zhaosen%20Qu-blue)](mailto:zqu7@jh.edu)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0894--4343-green)](https://orcid.org/0009-0001-0894-4343)
-[![Personal_Website](https://zhaosenqu.github.io/)]
+[![Website Badge](https://img.shields.io/badge/Website-zhaosenqu.github.io-blue?style=flat-square&logo=google-chrome)](https://zhaosenqu.github.io/)
 
 ---
 
@@ -164,20 +163,11 @@ The figures use a **CVD-safe (colorblind-friendly)** palette based on ORNL brand
 ## Author
 
 **Zhaosen Qu**  
-📧 [zqu7@jh.edu](mailto:zqu7@jh.edu)  
-🆔 ORCID: [0009-0001-0894-4343](https://orcid.org/0009-0001-0894-4343)
+[zqu7@jh.edu](mailto:zqu7@jh.edu)  
+ORCID: [0009-0001-0894-4343](https://orcid.org/0009-0001-0894-4343)
 
 ---
 
 ## Acknowledgments
 
 This project was developed as part of the Oak Ridge National Laboratory Research Science Internship (RSI) program, Summer 2026.
-
----
-
-## License
-
-© 2026 Zhaosen Qu. All rights reserved.
-
-This code is provided for academic and research purposes. For other uses, please contact the author.
-```
