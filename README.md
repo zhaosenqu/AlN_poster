@@ -142,6 +142,7 @@ Figures are automatically saved to the `figures/` directory in multiple formats:
 
 ---
 ## Data Availability
+
 Analysis code and raw data is available upon request.
 ---
 
