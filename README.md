@@ -14,15 +14,6 @@ This repository contains Python scripts used to generate figures for the Oak Rid
 
 The research investigates the growth of highly c-axis oriented aluminum nitride (AlN) thin films using reactive magnetron sputtering on silicon dioxide substrates. The key innovation is the use of nitrogen plasma treatment to create an oxynitride (SiO$_X$N$_Y$) templating layer that promotes preferential (0002) texture in the deposited AlN films.
 
-### Key Findings
-
-- **Best result:** Run #29 achieved a rocking curve FWHM of 1.09° (lowest measured)
-- **Process improvement:** ~6× increase in growth rate after system optimization
-- **Surface quality:** Sub-nanometer RMS roughness (Sᵩ < 1 nm) achieved across process window
-- **Film properties:** Nearly strain-free films within 0.08% of relaxed c-lattice parameter (c₀ = 4.980 Å)
-
----
-
 ## Repository Structure
 
 ```
@@ -149,6 +140,9 @@ Figures are automatically saved to the `figures/` directory in multiple formats:
 | 32 | Overnight cool | 10-min growth (~125 nm) |
 | 33 | 50 W oxynitride | 10-min growth (~125 nm) |
 
+---
+## Data Availability
+Analysis code and raw data is available upon request.
 ---
 
 ## Author
