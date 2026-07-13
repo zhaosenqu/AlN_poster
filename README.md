@@ -58,7 +58,7 @@ The research investigates the growth of highly c-axis oriented aluminum nitride 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/zhaosenqu/AlN_poster.git
 cd ornl-rsi-poster-2026
 
 # Install dependencies
